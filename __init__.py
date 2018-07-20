@@ -4,10 +4,11 @@ import sys
 def add_path(path):
     if path not in sys.path:
         sys.path.insert(0, path)
-        print 'added {} to pythonpath'.format(path)
+        print('added {} to pythonpath'.format(path))
 
 this_dir = osp.dirname(__file__)
 
 # Add pycocotools to PYTHONPATH
-coco_path = osp.join(this_dir, 'coco', 'PythonAPI')
-add_path(coco_path)
+# coco_path = osp.join(this_dir, 'coco', 'PythonAPI')
+# add_path(coco_path)
+

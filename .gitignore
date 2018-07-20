@@ -2,3 +2,4 @@ coco-data
 bbox.c
 *.so
 *.pyc
+.idea
